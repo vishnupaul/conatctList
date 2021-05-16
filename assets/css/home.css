@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #70cdff;
+  font-family: sans-serif;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: #006aa3;
+  padding: 2rem;
+}
+#page-heading {
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: capitalize;
+  background: #0085cc;
+}
+ul {
+  list-style-type: none;
+  padding: inherit;
+}
+li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #0092e0;
+  margin: 0.25rem auto;
+}
+.details {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  padding: 0 0.5rem;
+  color: #99d5ff;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.delete-button a {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: skyblue;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
+  transition: all 0.5s ease;
+}
+.delete-button a:hover {
+  transform: rotate(180deg);
+}
+form {
+  display: flex;
+}
+.input-field {
+  width: 70%;
+}
+.input-field input {
+  width: 45%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000;
+  padding: 0.25rem;
+  font-size: 1.2rem;
+  outline: none;
+  cursor: pointer;
+}
+input::placeholder {
+  color: black;
+}
+button {
+  background: #0092e0;
+  padding: 0 1rem;
+  border: none;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid #000;
+}
